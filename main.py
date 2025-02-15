@@ -26,6 +26,7 @@ class qtt:
               "This project wouldn't be possible without:")
         for i in qtt.contributors: print(f"- {i}")
         print(qtt.get_devices())
+        
 
 if which("adb") is None: print("Install adb from the Android SDK/your package manager to use qtt"); exit(1)
 qtt()
